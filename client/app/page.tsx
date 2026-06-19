@@ -39,7 +39,7 @@ export default function Home() {
           </a>
 
           <a
-            href="\login"
+            href="/login"
             className="rounded-full bg-emerald-600 px-5 py-2 text-sm font-semibold text-white transition hover:bg-emerald-700"
           >
             Login
@@ -64,13 +64,19 @@ export default function Home() {
         </p>
 
         <div className="mt-10 flex gap-4">
-          <button className="rounded-xl bg-emerald-600 px-8 py-4 font-semibold text-white transition hover:bg-emerald-700">
+          <a
+            href="/dashboard"
+            className="rounded-xl bg-emerald-600 px-8 py-4 font-semibold text-white transition hover:bg-emerald-700 inline-block"
+          >
             Get Started
-          </button>
+          </a>
 
-          <button className="rounded-xl border border-emerald-600 px-8 py-4 font-semibold text-emerald-600 transition hover:bg-emerald-50">
+          <a
+            href="#features"
+            className="rounded-xl border border-emerald-600 px-8 py-4 font-semibold text-emerald-600 transition hover:bg-emerald-50 inline-block"
+          >
             Explore Features
-          </button>
+          </a>
         </div>
       </section>
       {/* Features Section */}
